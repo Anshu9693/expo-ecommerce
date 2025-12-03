@@ -1,0 +1,25 @@
+{
+  "name": "expo-ecommerce",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+
+  "scripts": {
+    "build":"npm install --prefix BACKEND && npm install --prefix ADMIN && npm run build --prefix ADMIN",
+    "start":"npm run start --prefix BACKEND"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anshu9693/expo-ecommerce.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Anshu9693/expo-ecommerce/issues"
+  },
+  "homepage": "https://github.com/Anshu9693/expo-ecommerce#readme"
+}
